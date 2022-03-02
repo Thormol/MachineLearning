@@ -1,0 +1,5 @@
+Column 1: 
+
+DC column : Droughness index - The higher the value, the more severe the drought
+
+DMC column : moisture of the soil
