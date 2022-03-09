@@ -1,5 +1,5 @@
 #Import necessary libraries for the assignment
-from IPython.display import display, Image
+#from IPython.display import display, Image
 import numpy as np 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -52,3 +52,9 @@ equation = det_matrix[0][0]*(det_matrix[1][1]*det_matrix[2][2]-det_matrix[2][1]*
 result = solve(equation)
 
 print('Lambda values are: ', result)
+
+# The singular values are the square root of the eigenvalues:
+
+print('Singular values: ')
+for i in result:
+    print(math.sqrt(i))
